@@ -1,4 +1,4 @@
-package learn.ghar.spring.revise.delegation
+package learn.ghar.spring.revise.inheriting.derivates
 
 fun main(){
     println("This is practice area")

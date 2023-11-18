@@ -1,4 +1,4 @@
-package learn.ghar.spring.revise.derivation
+package learn.ghar.spring.revise.inheriting.abstacts
 
 fun main(){
 

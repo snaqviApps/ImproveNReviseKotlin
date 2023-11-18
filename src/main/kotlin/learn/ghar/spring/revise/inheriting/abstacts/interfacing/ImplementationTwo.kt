@@ -1,4 +1,4 @@
-package learn.ghar.spring.revise.interfacing
+package learn.ghar.spring.revise.inheriting.abstacts.interfacing
 
 fun main(){
     println("Implementation - Two")
