@@ -1,7 +1,8 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.8.21"
+//    kotlin("jvm") version "1.8.21"
+    kotlin("jvm") version "1.9.0"
 }
 
 group = "ghar.learn.pluralsight.pure"
@@ -13,6 +14,9 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+
+    // https://mvnrepository.com/artifact/io.mockk/mockk
+    testImplementation("io.mockk", "mockk", "1.13.8")
 }
 
 tasks.test {
@@ -20,5 +24,5 @@ tasks.test {
 }
 
 tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "1.8"
+    kotlinOptions.jvmTarget = "17"
 }
